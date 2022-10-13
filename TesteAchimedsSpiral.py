@@ -28,5 +28,5 @@ for x in np.arange(ti, tf, t):
 print("Ângulo final: " + str(round(tk, 1)) + " rad ("+ str(round(tk * (180/pi), 1)) + "°)")
 print("Voltas: " + str(round(tk / (2*pi), 2)) + " voltas")
 print("Diâmetro Interno: " + str(round(a * 2, 1)) + " mm")
-print("Diâmetro Externo: " + str(round(2*(a+b*(tk-ti)), 1)) + " mm")
+print("Diâmetro Externo: " + str(round(2*(a+b*(tk-ti)) - b*pi, 1)) + " mm")
 print("-----------------------------")	
